@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+.first-navbar{
+    height: 80px;
+}
+
+
+header{
+    position: fixed;
+}
+.menu-icon{
+font-size: 24px;
+margin-left: 20px;
+margin-top:30px;
+ color: transparent;
+}
+.you-tube-logo{
+     margin-left: 20px;
+    position: relative;
+    top: 4px;
+}
+.search-box {
+    margin-left:250px;
+    position: relative; top:-4px;
+    height: 37px;
+    width:500px;
+    border: 1px solid;
+    border-right: hidden;
+    background-color: transparent;
+     border-radius: 20px 0px 0px 20px;
+     font-size: 18px;
+}
+/* .cancle-icon{
+    scale: 1.8;
+     position: relative; left: 230px;
+} */
+ 
+ 
+.search-button{
+    background-color: rgba(128, 128, 128, 0.064);
+    height:39px;
+    width: 70px;
+    position: relative;top:-5px;right: 4px;
+    border: 1px solid black;
+    border-radius: 0 20px 20px 0;
+}
+.search-icon{
+    scale: 1.5;
+
+}
+.search-button:hover{
+    background-color: rgba(169, 169, 169, 0.295);
+}
+.mice-button{
+    background-color:rgba(128, 128, 128, 0.064);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border:hidden;
+    position: relative; bottom: 5px; left: 15px;
+}
+.mice-button:hover{
+    background-color: rgba(169, 169, 169, 0.295);
+}
+.mice-icon{
+font-size: 15px;
+     
+}
+.plus-icon{
+    position: relative;
+    left:135px; 
+    scale:1.8;  
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+.plus-icon:hover{
+    background-color: rgba(169, 169, 169, 0.295); 
+}
+.notification-icon{
+
+    position: relative;
+    left:150px;
+    scale:1.8;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.notification-icon:hover{
+    background-color: rgba(169, 169, 169, 0.295); 
+}
+.profile-box{
+    background-color: aqua;
+   
+}
+.profile{
+    position: relative;
+    left: 270px;
+    bottom: 35px;
+    border-radius: 50%;
+}
+
+.image{
+     
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    right: 50px;
+    top: 18px;
+    border-radius: 50%;
+    background-image: url("profile1-image.jpg");
+    background-size: cover;
+}
+
+
+
+/* .dropdown side bar */
+.side-bar{
+    height:550px;
+    width: 300px;
+    background-color: #fdfdfd;
+     overflow:auto;
+     display: none;
+     position: relative;
+     bottom: 40px;
+     left: 10px;
+    
+}
+
+  div.side-bar ul li button{
+    width:200px;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 30px;
+    border:none;
+    background-color: #fdfdfd;
+    font-size:15px;
+    display: flex;
+    align-items: center;
+}
+ 
+div.side-bar ul li button:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+    border-radius:10px;
+}
+ ul li i{
+     
+     position: relative;
+    right:25px;
+    scale: 1.3;
+     
+}
+
+/* dropdown buttons */
+.dropdown{
+    width: 5px;
+}
+.dropdown-button{
+    scale:1.8;
+    position: relative;
+    bottom:50px;left: 20px;
+    background-color: transparent;
+    border: none;
+}
+/* .dropdown:hover .side-bar{
+    display: block;
+
+} */
+
+
+/* coloumn nav-bar start */
+.coloum-navbar{
+    background-color:rgb(255, 255, 255);
+    height:530px;
+    width: 100px;
+    position: relative;
+    top: 70px;
+    position: absolute;
+    z-index: -2;
+}
+.upper-icon{
+scale:1.4;
+position: relative;
+bottom: 30px;
+left: 22px;
+}
+.upper-icon3{
+    scale:1.4;
+position: relative;
+bottom: 30px;
+left:30px;
+}
+div.coloum-navbar ul li button{
+    height:60px;
+    width:80px;
+    margin:10px 0px ;
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+}
+div.coloum-navbar ul li button:hover{
+    background-color: rgba(176, 176, 176, 0.224);
+    border-radius: 10px;
+}      
+
+/* navbar second start */
+.navbar-2{
+height: 40px;
+margin-left: 100px;
+ 
+position:absolute;
+display: flex;
+align-items: center;
+overflow: auto;
+}
+div .navbar-2 button:hover{
+    background-color:rgba(169, 169, 169, 0.295);  ;
+}
+div.navbar-2 button{
+    height: 30px;
+    margin-left: 15px;
+    border-radius:4px;
+    border: 1px solid gray;
+}
+.All-button{
+    width: 40px;
+}
+.Music-button{
+    width:65px;
+}
+.Mixes-button{
+    width:65px;
+}
+.T-series-button{
+    width: 100px;
+}
+.Bollywood-button{
+    width: 150px;
+}
+.Live-button{
+    width: 65px;
+}
+.Motivation-button{
+    width: 100px;
+}
+/* .Editing-button{
+    width:70px; */
+/* } */
+.Class-button{
+    width:65px;
+}
+.Gadgets-button{
+    width:100px;
+}
+.uploaded-button{
+    width:150px;
+}
+.Watched-button{
+    width: 80px;
+}
+.New-button{
+    width: 100px;
+}
+
+
+/* navbar second hover effect */
+.All-button:focus{
+    background-color: black;
+    color:white;
+}
+.Music-button:focus{
+background-color: black;
+color:white;
+}
+.Mixes-button:focus{
+background-color: black;
+color:white;
+}
+.T-series-button:focus{
+    background-color: black;
+    color:white;
+}
+.Bollywood-button:focus{
+    background-color: black;
+    color:white;
+}
+.Live-button:focus{
+    background-color: black;
+    color:white;
+}
+.Motivation-button:focus{
+    background-color: black;
+    color:white;
+}
+/* .Editing-button:focus{
+background-color: black;
+color:white;
+} */
+.Class-button:focus{
+    background-color: black;
+    color:white;
+}
+.Gadgets-button:focus{
+    background-color: black;
+    color:white;
+}
+.uploaded-button:focus{
+    background-color: black;
+    color:white;
+}
+.Watched-button:focus{
+    background-color: black;
+    color:white;
+}
+.New-button:focus{
+    background-color: black;
+    color:white;
+}
+
+
+
+/* middles videos stats div */
+.middle{
+    height:500px;
+    width:100%;
+   position:fixed;
+   top:125px;
+   left:100px;
+   z-index: -1;
+   overflow: auto;
+
+
+
+}
+
+/* main contains (videos-boxes) */
+.first-video-row{
+   
+    margin: 10px 100px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+      
+     
+}
+.video-box1{
+    height: 290px;
+    width: 370px;
+     
+}
+.video-box2{
+    height: 290px;
+    width: 370px;
+}
+.video-box3{
+    height: 290px;
+    width: 370px;
+}
+ 
+
+
+/* images in videos boxes */
+video {
+border-radius:15px;
+border: 1px solid;
+height:207px;
+}
+ 
+h3{
+    margin-left: 10px;
+    font-size: 16px;
+}

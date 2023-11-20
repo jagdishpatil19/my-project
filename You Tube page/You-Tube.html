@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="You-Tube.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="first-navbar">
+          <i class="fa-solid fa-bars menu-icon"></i>
+          <a class="you-tube-logo" href="#"
+            ><img src="Youtube_logo.png " alt="you tube logo" height="25px"
+          /></a>
+          <input type="search " class="search-box" />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          </button>
+          <button class="mice-button">
+            <i class="fa-solid fa-microphone mice-icon"></i>
+          </button>
+          <button class="plus-icon">
+            <i class="fa-regular fa-square-plus"></i>
+          </button>
+          <button class="notification-icon">
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <a class="profile" href="#"><div class="image"></div></a>
+        </div>
+      </div>
+
+      <div id="nav"  class="navbar-2">
+        <button id="All" onclick="AllRemove()" class="All-button">All</button>
+        <button id="Music" class="Music-button">Music</button>
+        <!-- <button class="Mixes-button">Mixes</button> -->
+        <button id="T-Series" class="T-series-button">T-Series</button>
+        <button class="Bollywood-button">Bollywood Song</button>
+        <button class="Live-button">Live</button>
+        <button class="Motivation-button">Motivation</button>
+        <!-- <button class="Editing-button">Editing</button> -->
+        <button class="Class-button">Class</button>
+        <button class="Gadgets-button">Gadgets</button>
+        <button class="uploaded-button">Recently uploaded</button>
+        <button class="Watched-button">Watched</button>
+        <button class="New-button">New to you</button>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-button">
+          <i onclick="show()" ondblclick="hide()"  class="fa-solid fa-bars menu-icon2"></i>
+        </button>
+
+        <div class="side-bar">
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-house all-icon"></i>Home</button>
+            </li>
+
+            <li>
+              <button><i class="fa-regular fa-map"></i>Short</button>
+            </li>
+
+            <li>
+              <button><i class="fa-brands fa-youtube"></i>Subscribe</button>
+            </li>
+            <br />
+            <hr />
+
+            <li>
+              <button><i class="fa-regular fa-bookmark"></i>Library</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-timeline"></i> History</button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-regular fa-circle-play"></i>Your videos
+              </button>
+            </li>
+
+            <li>
+              <button><i class="fa-regular fa-clock"></i>Watch Later</button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-regular fa-thumbs-up"></i>Liked videos
+              </button>
+            </li>
+            <br />
+            <hr />
+
+            <li>
+              <button>
+                <i class="fa-solid fa-person-breastfeeding"></i>Trending
+              </button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-bag-shopping"></i> Shopping</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-music"></i>Music</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-photo-film"></i>Films</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-satellite-dish"></i>Live</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-puzzle-piece"></i>Gamining</button>
+            </li>
+
+            <li>
+              <button><i class="fa-regular fa-newspaper"></i> News</button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-person-running"></i>Soprt</button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-solid fa-graduation-cap"></i>Learning
+              </button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-solid fa-glasses"></i>Fashion & beauty
+              </button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-podcast"></i>Prodcasts</button>
+            </li>
+            <br />
+            <hr />
+
+            <li>
+              <button><i class="fa-solid fa-gear"></i>Settings home</button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-regular fa-flag"></i>Report historyhome
+              </button>
+            </li>
+
+            <li>
+              <button><i class="fa-solid fa-circle-info"></i> Help</button>
+            </li>
+
+            <li>
+              <button>
+                <i class="fa-regular fa-comments"></i>Send feedbackhome
+              </button>
+            </li>
+            <br />
+            <hr />
+            <!-- 
+            <li><button>home</button></li>
+
+            <li><button>home</button></li>
+
+            <li><button>home</button></li>
+
+            <li><button>home</button></li> -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- coloumn side navbar start -->
+      <div class="coloum-navbar">
+        <ul>
+          <li>
+            <button><i class="fa-solid fa-house upper-icon"></i>Home</button>
+          </li>
+          <li>
+            <button><i class="fa-regular fa-map upper-icon"></i>Shorts</button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-brands fa-youtube upper-icon3"></i>Subscribe
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-regular fa-bookmark upper-icon"></i>Library
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="middle">
+      <div class="first-video-row"> 
+        <div class="video-box1">
+         
+            <video src="HEERIYE ❤️💫edit .mp4 " autoplay controls muted  loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+          
+          <h3>HEERIYE ❤️💫edit .mp4</h3>
+         
+        </div>
+        <div class="video-box2">
+        
+             <video src="SUIT PATIALA(Video)_ Yaariyan 2 _Divya Khosla Kumar _Guru R,Neha K,Manan B _Radhika,Vinay _Bhushan K.mp4 " muted controls loop onmouseover="this.play()"; onmouseout="this.pause()"; ></video>
+           <h3>SUIT PATIALA(Video)_ Yaariyan 2 _Divya Khosla Kumar _Guru R,Neha K,Manan B _Radhika,Vinay _Bhushan K.mp4</h3> 
+        
+        
+        </div>
+        <div class="video-box3">
+           
+             <video src=" Love Romantic Song __ Whatsapp Status 30 Second __ ShortFilmCn.mp4" autoplay controls muted loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+        <h3>Love Romantic Song __ Whatsapp Status 30 Second __ ShortFilmCn.mp4</h3> 
+          
+        
+        </div>
+      </div>
+      <div class="first-video-row"> 
+        <div class="video-box1">
+         
+            <video src="💞Halamithi Habibo Beast song Efx✨ whatsapp status🥀 _ Thalapathy vijay 💫.mp4" autoplay controls muted  loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+          
+          <h3>💞Halamithi Habibo Beast song Efx✨ whatsapp status🥀 _ Thalapathy vijay 💫.mp4</h3>
+         
+        </div>
+        <div class="video-box2">
+        
+             <video src="Raatan lambiyan whatsapp status Raatanlambiyan whatsapp status Kiaraadvani whatsapp status shershaah.mp4 " muted controls loop onmouseover="this.play()"; onmouseout="this.pause()"; ></video>
+           <h3>Raatan lambiyan whatsapp status Raatanlambiyan whatsapp status Kiaraadvani whatsapp status shershaah.mp4</h3> 
+        
+        
+        </div>
+        <div class="video-box3">
+           
+             <video src=" GEET AND ADITYA EDIT JAB WE MET WHATSAPP STATUS.mp4" autoplay controls muted loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+        <h3>GEET AND ADITYA EDIT JAB WE MET WHATSAPP STATUS.mp4h3> 
+          
+        
+        </div>
+      </div>
+      <div class="first-video-row"> 
+        <div class="video-box1">
+         
+            <video src="HEERIYE ❤️💫edit .mp4 " autoplay controls muted  loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+          
+          <h3>HEERIYE ❤️💫edit .mp4</h3>
+         
+        </div>
+        <div class="video-box2">
+        
+             <video src="SUIT PATIALA(Video)_ Yaariyan 2 _Divya Khosla Kumar _Guru R,Neha K,Manan B _Radhika,Vinay _Bhushan K.mp4 " muted controls loop onmouseover="this.play()"; onmouseout="this.pause()"; ></video>
+           <h3>SUIT PATIALA(Video)_ Yaariyan 2 _Divya Khosla Kumar _Guru R,Neha K,Manan B _Radhika,Vinay _Bhushan K.mp4</h3> 
+        
+        
+        </div>
+        <div class="video-box3">
+           
+             <video src=" Love Romantic Song __ Whatsapp Status 30 Second __ ShortFilmCn.mp4" autoplay controls muted loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+        <h3>Love Romantic Song __ Whatsapp Status 30 Second __ ShortFilmCn.mp4</h3> 
+          
+        
+        </div>
+      </div>
+      <div class="first-video-row"> 
+        <div class="video-box1">
+         
+            <video src="💞Halamithi Habibo Beast song Efx✨ whatsapp status🥀 _ Thalapathy vijay 💫.mp4" autoplay controls muted  loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+          
+          <h3>💞Halamithi Habibo Beast song Efx✨ whatsapp status🥀 _ Thalapathy vijay 💫.mp4</h3>
+         
+        </div>
+        <div class="video-box2">
+        
+             <video src="Raatan lambiyan whatsapp status Raatanlambiyan whatsapp status Kiaraadvani whatsapp status shershaah.mp4 " muted controls loop onmouseover="this.play()"; onmouseout="this.pause()"; ></video>
+           <h3>Raatan lambiyan whatsapp status Raatanlambiyan whatsapp status Kiaraadvani whatsapp status shershaah.mp4</h3> 
+        
+        
+        </div>
+        <div class="video-box3">
+           
+             <video src=" GEET AND ADITYA EDIT JAB WE MET WHATSAPP STATUS.mp4" autoplay controls muted loop onmouseover="this.play()"; onmouseout="this.pause()";></video>
+        <h3>GEET AND ADITYA EDIT JAB WE MET WHATSAPP STATUS.mp4h3> 
+          
+        
+        </div>
+      </div>
+
+      
+    </main>
+  </body>
+  <script src="you-tube.js"></script>
+</html>
